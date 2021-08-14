@@ -1,0 +1,84 @@
+:root {
+    --white: #FFF;
+    --black: #000;
+    --base-gradient: linear-gradient(135deg,#FFFFFF, #878b911a);
+    --color-primary:#377DFF;
+    --font-color-base: #666;
+    --font-color-link: #57a6ff;
+    --font-color-dark: #212529;
+    --font-color-light: #b0aebe;
+    --footer: #34314b;
+    --footer-base: #2e2b45;
+    --contrast: rgba(246,248,249, 0.8) ;
+    --success: #64ECF5;
+    --danger: #FF8B8D;
+    --grad-1: #a1ecff;
+    --grad-2: #7dbcff;
+    --font-default: "Open Sans", sans-serif;
+    --font-nav: "Hind", sans-serif;
+}
+
+body {
+    font-family: var(--font-default);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0;
+    color: var(--font-color-base);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-top: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    border-style: none;
+}
+
+#btn-primary {
+    margin: 8px;
+    padding: 10px 18px;
+    background: var(--color-primary);
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#btn-success {
+    margin-left: 5px;
+    background: #31CAA7;
+    color: var(--white);
+    font-weight: bold;
+    padding: 2px 9px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
